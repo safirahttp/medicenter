@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,user-scalable=0"/>
+  <link rel="stylesheet" type="text/css" href="medicenter.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script type="text/javascript">
+    window.onload = function(){
+      document.querySelector(".menu-mobile").addEventListener("click", function(){
+        if(document.querySelector(".menu nav ul").style.display == 'flex'){
+          document.querySelector(".menu nav ul").style.display = 'none';
+        } else {
+          document.querySelector(".menu nav ul").style.display = 'flex';
+        }
+      });
+    }
+  </script>
+  <title> MediCenter </title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="imagens/header-logo.png"/>
+      </div>
+      <div class="menu">
+        <nav>
+          <div class="menu-mobile">
+            <div class="menum-line"></div>
+            <div class="menum-line"></div>
+            <div class="menum-line"></div>
+          </div>
+          <ul>
+            <li class="menu1"><a href=""> HOME </a></li>
+            <li><a href=""> BLOG </a></li>
+            <li><a href=""> PAGES </a></li>
+            <li><a href=""> DEPARTAMENTS </a></li>
+            <li><a href=""> CONTACT </a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+  <section id="banner">
+    <div class="container column">
+      <div class="banner-headline">
+        <h2> Top notch <br> experience </h2>
+        <h3> MediCenter is a responsive template <br> perfect for all screen size. </h3>
+      </div>
+      <div class="banner-options">
+        <div class="banner1">
+          <div class="banner-title"> Emergency Case </div>
+          <div class="banner-text"> If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.</div>
+          <a href=""> Read more → </a>
+        </div>
+        <div class="banner2">
+          <div class="banner-title"> Doctors Timetable </div>
+          <div class="banner-text"> Here at medicenter we have individual doctor's lists. Click read more below to see services and current timetable for our doctors. </div>
+          <a href=""> Read more → </a>
+        </div>
+        <div class="banner3">
+          <div class="banner-title"> Opening Hours </div>
+            <div class="list-work">
+              <ul>
+                <li class="days">
+                  <span> Monday - Friday </span>
+                  <div class="hours"> 8.00 - 17.00 </div>
+                </li>
+                <li>
+                  <span> Saturday </span>
+                  <div class="hours"> 9.00 18.00 </div>
+                </li>
+                <li>
+                  <span> Sunday </span>
+                  <div class="hours"> 9.30- 17.30 </div>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="geral">
+    <div class="container">
+      <section>
+        <div class="widget">
+          <div class="widget-title">
+            <div class="widget-title-text"> Latest News </div>
+            <div class="widget-title-bar"></div>
+          </div>
+        <div class="widget-body flex">
+          <article>
+            <a href="">
+              <div class="data-news">
+                <div class="news-posted-at"> 12 Dec 12 </div>
+                <div class="news-coment"> 2 </div>
+              </div>
+              <div class="news-banner">
+                <img src="imagens/paciente-highfive.jpg"/>
+              </div>
+              <div class="news-title"> Lorem ipsum dolor sit amat velum </div>
+              <div class="news-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam cumque odit quia quo dignissimos reiciendis nesciunt earum, voluptate iure excepturi, facilis necessitatibus eligendi perspiciatis dolorum a? Placeat labore vitae iure! </div>
+          </a>
+          </article>
+
+          <article>
+            <a href="">
+              <div class="data-news">
+                <div class="news-posted-at"> 12 Dec 12 </div>
+                <div class="news-coment"> 2 </div>
+              </div>
+              <div class="news-banner">
+                <img src="imagens/mulher-lendo.jpg"/>
+              </div>
+              <div class="news-title"> Lorem ipsum dolor sit amat velum </div>
+              <div class="news-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam cumque odit quia quo dignissimos reiciendis nesciunt earum, voluptate iure excepturi, facilis necessitatibus eligendi perspiciatis dolorum a? Placeat labore vitae iure! </div>
+          </a>
+          </article>
+
+          <article>
+            <a href="">
+              <div class="data-news">
+                <div class="news-posted-at"> 12 Dec 12 </div>
+                <div class="news-coment"> 2 </div>
+              </div>
+              <div class="news-banner">
+                <img src="imagens/mulher-lendo.jpg"/>
+              </div>
+              <div class="news-title"> Lorem ipsum dolor sit amat velum </div>
+              <div class="news-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam cumque odit quia quo dignissimos reiciendis nesciunt earum, voluptate iure excepturi, facilis necessitatibus eligendi perspiciatis dolorum a? Placeat labore vitae iure! </div>
+          </a>
+          </article>
+
+          <article>
+            <a href="">
+              <div class="data-news">
+                <div class="news-posted-at"> 12 Dec 12 </div>
+                <div class="news-coment"> 2 </div>
+              </div>
+              <div class="news-banner">
+                <img src="imagens/paciente-highfive.jpg"/>
+              </div>
+              <div class="news-title"> Lorem ipsum dolor sit amat velum </div>
+              <div class="news-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam cumque odit quia quo dignissimos reiciendis nesciunt earum, voluptate iure excepturi, facilis necessitatibus eligendi perspiciatis dolorum a? Placeat labore vitae iure! </div>
+          </a>
+          </article>
+        </div>
+      </section>
+      <aside>
+        <div class="widget">
+          <div class="widget-title">
+            <div class="widget-title-text"> Departamens </div>
+            <div class="widget-title-bar"></div>
+          </div>
+          <div class="widget-body">
+          </div>
+          <div class="widget">
+            <div class="widget-title">
+              <div class="widget-title-text"> Make An Appoinemtn </div>
+              <div class="widget-title-bar"></div>
+            </div>
+          <div class="widget-body">
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <footer>
+    <div class="container flexColumn">
+      <div class="footer-options">
+        <div class="foptions1">
+          <div class="fo-title"> Health Insurance </div>
+          <a href="">
+          <div class="fo-text"> Here in medicenter we have individual → </div>
+          </a>
+        </div>
+        <div class="foptions2">
+          <div class="fo-title"> Medical Records </div>
+          <a href="">
+          <div class="fo-text"> Here in medicenter we have individual → </div>
+          </a>
+        </div>
+        <div class="foptions3">
+          <div class="fo-title"> Online Bill Pay </div>
+          <a href="">
+          <div class="fo-text"> Here in medicenter we have individual → </div>
+          </a>
+        </div>
+      </div>
+      <div class="footer-area">
+        <div class="farea">
+          <div class="footer-area-title"> Medicenter Clinic </div>
+            <div class="footer-title-bar"></div>
+        </div>
+        <div class="farea">
+          <div class="footer-area-title"> Latest Post </div>
+            <div class="footer-title-bar"></div>
+        </div>
+        <div class="farea">
+          <div class="footer-area-title"> Latest Tweets </div>
+            <div class="footer-title-bar"></div>
+        </div>
+      </div>
+      <div class="footer-copy">
+        Copyright - Todos os direitos reservados
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
